@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+import { createStore } from "redux";
+import ${1:rootReducer} from "${2:path}";
+
+const store = createStore(rootReducer);
+export default store;$0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <tabTrigger>rdxs</tabTrigger>
+    <description>Create a redux store.</description>
+    <scope>source.js</scope>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

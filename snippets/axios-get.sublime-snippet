@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+axios
+    .get(${1:url}, {
+        params: {
+            id: 12345
+        }
+    })
+    .then(response => {
+        console.log(response);
+    })
+    .catch(error => {
+        console.log(error);
+    });
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <tabTrigger>axios.get</tabTrigger>
+    <description>Axios get call.</description>
+    <scope>source.js</scope>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

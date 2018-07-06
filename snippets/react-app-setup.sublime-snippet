@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
+import store from "./state/store";
+import "./index.css";
+import App from "./App";
+import registerServiceWorker from "./registerServiceWorker";
+
+ReactDOM.render(
+    <Provider store={store}>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </Provider>,
+    document.getElementById("root")
+);
+registerServiceWorker();
+]]></content>
+    <tabTrigger>appSetup</tabTrigger>
+    <scope>source.js</scope>
+    <description>React Index.js setup</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

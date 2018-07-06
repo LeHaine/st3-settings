@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+const mapStateToProps = state => {
+    return {
+        ${1:prop}: state.${1:prop}$0
+    };
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <tabTrigger>mapSt</tabTrigger>
+    <description>Create mapStateToProps function.</description>
+    <scope>source.js</scope>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

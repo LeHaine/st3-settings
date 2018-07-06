@@ -16,18 +16,19 @@
 		"JsPrettier",
 		"MarkdownPreview",
 		"Package Control",
+		"PackageResourceViewer",
 		"React Development Snippets",
 		"requirementstxt",
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
 		"SublimeLinter",
-		"SublimeLinter-csslint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-json",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-pyyaml",
+		"SublimeLinter-stylelint",
 		"Theme - Flatland"
 	]
 }
