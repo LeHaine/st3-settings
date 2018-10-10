@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+import Phaser from "phaser";
+
+class ${1:GameScene} extends Phaser.Scene {
+    constructor() {
+        super({ key: "${1:GameScene}" });
+    }
+
+    init() {}
+
+    preload() {}
+
+    create() {}
+
+    update(time, delta) {}
+}
+
+export default ${1:GameScene};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <tabTrigger>pgs</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+    <scope>source.js</scope>
+</snippet>

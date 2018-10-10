@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+import Phaser from "phaser";
+import ${1:GameScene} from "./scenes/${1:GameScene}";
+
+const config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    parent: "content",
+    scene: [${1:GameScene}]
+};
+
+class ${2:Client} {
+    constructor() {
+        new Phaser.Game(config);
+    }
+}
+
+export default ${2:Client};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <tabTrigger>pgc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+    <scope>source.js</scope>
+</snippet>
