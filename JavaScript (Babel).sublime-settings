@@ -2,6 +2,8 @@
 	"extensions":
 	[
 		"json",
-		"js"
+		"js",
+		"tsx",
+		"ts"
 	]
 }
