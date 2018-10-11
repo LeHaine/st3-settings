@@ -22,6 +22,7 @@ export default ${2:Client};
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <!-- <tabTrigger>hello</tabTrigger> -->
     <tabTrigger>pgc</tabTrigger>
+    <description>Phaser 3 create basic Game with config.</description>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
     <scope>source.js</scope>
